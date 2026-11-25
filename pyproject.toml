@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codenest-pvm"
+version = "1.0.0"
+description = "A CodeNest custom-keyword Python dialect with a stack-based bytecode VM"
+requires-python = ">=3.8"
+
+[project.scripts]
+codenest = "codenest:main"
+
+[tool.setuptools]
+py-modules = ["codenest", "dialects"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pvm*"]

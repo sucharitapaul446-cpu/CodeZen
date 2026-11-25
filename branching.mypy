@@ -1,0 +1,9 @@
+
+number = 10
+
+check number > 0:
+    show("Number is positive")
+elsecheck number < 0:
+    show("Number is negative")
+otherwise:
+    show("Number is zero")

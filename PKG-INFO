@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: codenest-pvm
+Version: 1.0.0
+Summary: A CodeNest custom-keyword Python dialect with a stack-based bytecode VM
+Requires-Python: >=3.8

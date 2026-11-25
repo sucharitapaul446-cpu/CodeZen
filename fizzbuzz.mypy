@@ -1,0 +1,11 @@
+i = 1
+repeat i <= 15:
+    check i % 15 == 0:
+        show("FizzBuzz")
+    elsecheck i % 3 == 0:
+        show("Fizz")
+    elsecheck i % 5 == 0:
+        show("Buzz")
+    otherwise:
+        show(i)
+    i = i + 1

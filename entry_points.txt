@@ -1,0 +1,2 @@
+[console_scripts]
+codenest = codenest:main

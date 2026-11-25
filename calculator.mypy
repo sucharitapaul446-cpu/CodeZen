@@ -1,0 +1,6 @@
+a = 18
+b = 6
+show(a + b)
+show(a - b)
+show(a * b)
+show(a / b)
